@@ -5,6 +5,6 @@ services:
         build: .
         image: osm-search-data-export:latest
         container_name: osm-search-data-export
-        env_file: cochabamba.env
+        env_file: tetuan.env
         volumes: 
             - ./out:/app/osm-search-data-export/out/
